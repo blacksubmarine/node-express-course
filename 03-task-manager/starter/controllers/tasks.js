@@ -20,5 +20,5 @@ const deleteTask = (req, res) => {
 
 
 module.exports = {
-    getAllTasks, getTask ,updateTask ,deleteTask
+    getAllTasks, createTask, getTask ,updateTask ,deleteTask
 }

@@ -12,6 +12,12 @@ app.get('/hello', (req, res) => {
 
 app.use('/api/v1/tasks', tasks)
 
+// app.get('/api/v1/tasks')
+// app.post('/api/v1/tasks')
+// app.get('/api/v1/tasks/:id') // single task
+// app.patch('/api/v1/tasks/:id')
+// app.delete('/api/v1/tasks/:id')
+
 const port = 3000
 
 
